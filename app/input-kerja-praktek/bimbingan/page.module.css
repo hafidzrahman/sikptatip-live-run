@@ -1,0 +1,52 @@
+.position {
+    font-size: 20px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.arrow {
+    margin-left: 10px;
+    margin-right: 16px;
+    color: #646262;
+}
+
+.arrow-second {
+    margin: 0px 16px;
+    color: #646262;
+}
+
+.current-position {
+    color: black;
+}
+
+h1.title {
+    margin-top: 18px;
+    font-size: 36px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #726F6F;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+.wrapper button {
+    width: 311px;
+    height: 58px;
+    background-color: white;
+    border: 1px solid #FF6174;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px 7px 10px 11px;
+    cursor: pointer;
+}
+
+.wrapper button span {
+    font-size: 22px;
+    color: #FF6174;
+    margin-left: 13px;
+}
+

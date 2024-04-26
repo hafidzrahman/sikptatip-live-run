@@ -1,0 +1,34 @@
+.link {
+    width: 443px;
+    height: 362px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 99px;
+}
+
+.wrapper {
+    width: 443px;
+    height: 362px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.text {
+    width: 100%;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, .32);
+    padding: 12px 11px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: arial;
+}
+
+.text p {
+    padding-right: 20px;
+}

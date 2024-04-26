@@ -1,0 +1,42 @@
+.table-head {
+    display: flex;
+    list-style: none;
+    background-color : #ECECEC;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 16px 10px 12px 15px;
+    font-size: 22px;
+    align-items: center;
+}
+
+.no, .foto, .nama, .nim, .tenggat-waktu, .status, .aksi {
+   text-align: center;
+}
+
+.no {
+    width: 48px;
+}
+
+.foto {
+    width: 117px;
+}
+
+.nama {
+    width: 215px;
+}
+
+.nim {
+    width: 180px;
+}
+
+.tenggat-waktu {
+    width: 229px;
+}
+
+.status {
+    width: 141px;
+}
+
+.aksi {
+    width: 127px;
+}

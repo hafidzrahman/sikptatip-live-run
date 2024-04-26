@@ -1,0 +1,20 @@
+.input {
+    /* padding: 10px 0 5vh; */
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 43px;
+}
+
+.input label {
+    margin-bottom: 23px;
+}
+
+.input input{
+    height: 44px;
+    border-radius: 30px;
+    padding: 2vh;
+    box-sizing: border-box;
+    border: 1px solid black;
+}

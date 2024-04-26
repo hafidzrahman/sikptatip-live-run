@@ -1,0 +1,63 @@
+.navigation {
+    width: 17%;
+    height: 100%;
+    /* background-color: grey; */
+}
+
+.account {
+    width: 88%;
+    height: 13%;
+    background-color: white;
+    margin: 0% 4%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.account img {
+    margin-right: 17px;
+    border-radius: 50%;
+}
+
+.account p.line {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.line {
+    width: 88%;
+    height: 1px;
+    margin: 7% 6% 7%;
+    background-color: black;
+}
+
+.v {
+    margin-left: 19px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.option {
+    margin-left: 21px;
+}
+
+.navigation .log-out {
+    margin-top: 110%;
+    margin-left: 10%;
+}
+
+.navigation .log-out .log-out-link {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}

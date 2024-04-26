@@ -1,0 +1,116 @@
+.table-wrapper {
+    display: flex;
+    list-style: none;
+    padding: 16px 10px 12px 15px;
+    font-size: 22px;
+    align-items: center;
+}
+
+
+.no, .foto, .nama, .nim, .tenggat-waktu, .status, .aksi {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.no {
+    width: 48px;
+}
+
+.foto {
+    width: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.nama {
+    width: 215px;
+    text-align: center;
+}
+
+.nim {
+    width: 180px;
+}
+
+.tenggat-waktu {
+    width: 229px;
+}
+
+.status {
+    width: 141px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status p {
+    width: 117px;
+    height: 33px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status p.rated {
+    border: 3px solid #90EE90;
+    color: #90EE90;
+}
+
+.status p.pending {
+    border: 3px solid #E59D0B;
+    color: #E59D0B;
+}
+
+.status p.not-rated {
+    border: 3px solid #797373;
+    color: #797373;
+}
+
+.aksi {
+    width: 127px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aksi a, .aksi button {
+    width: 104px;
+    height: 39px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.aksi button {
+    cursor: not-allowed;
+}
+
+.aksi a:nth-child(1), .aksi button:nth-child(1) {
+    background-color: #00E000;
+    margin-bottom: 14px;
+}
+
+.aksi a:nth-child(2), .aksi button:nth-child(2) {
+    background-color: #87CEFA;
+}
+
+.gagal p.rated, .status.gagal p.pending, .status.gagal p.not-rated{
+    font-size: 14px;
+    border: 3px solid red;
+    color: red;
+}

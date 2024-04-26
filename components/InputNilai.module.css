@@ -1,0 +1,34 @@
+.wrapper {
+    width: 744px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.wrapper input {
+    width: 251px;
+    height: 37px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.wrapper input.total {
+    background-color: #808080;
+    color: black;
+}
+
+input.total:hover {
+    cursor: not-allowed;
+}
+
+.wrapper input:focus {
+    border: 1px solid black;
+    outline: none;
+}
+
+.wrapper label {
+    font-size: 22px;
+    font-weight: 300;
+}

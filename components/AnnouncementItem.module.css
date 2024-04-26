@@ -1,0 +1,21 @@
+.date, .penting {
+    color: white;
+    font-size: 14px;
+    padding: 0px 7px;
+    border-radius: 20px;
+    margin-right: 6px;
+    font-weight: lighter;
+}
+
+.tag .date {
+    background-color: #02D002;
+}
+
+.tag .penting {
+    background-color: #FF6174;
+    padding: 0px 19px;
+}
+
+.tag {
+    margin-bottom: 8px;
+}

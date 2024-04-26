@@ -1,0 +1,27 @@
+.table {
+    height: 365px;
+    margin-top: 14px;
+    border-radius: 15px;
+    border: 1px solid #D0D0D0;
+    overflow: hidden;
+}
+
+.table-content {
+    width: 100%;
+    height: 311px;
+    overflow-y: auto;
+    list-style: none;
+}
+
+.table-content::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  .table-content::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+  
+  .table-content::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.3);
+    border-radius: 5px;
+  }

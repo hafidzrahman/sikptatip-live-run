@@ -1,0 +1,25 @@
+.box {
+    height: 162px;
+    background-image: linear-gradient(to right, #D7ADE6, #000AFF);
+    border-radius: 20px;
+    padding: 13px 19px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 56px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.text span {
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}

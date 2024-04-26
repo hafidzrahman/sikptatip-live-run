@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    column-gap: 11px;
+    list-style: none;
+}
+
+.wrapper li {
+    display: flex;
+    align-items: center;
+    
+}
+
+.total, .rated, .pending, .not-rated {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.wrapper .not-rated {
+    margin-left: 0px
+}
+
+.total {
+    color: black;
+}
+
+.rated {
+    color: #90EE90;
+}
+
+.pending {
+    color: #E59D0B;
+}
+
+.not-rated {
+    color: #797373;
+}

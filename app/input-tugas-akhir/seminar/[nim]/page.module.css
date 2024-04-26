@@ -1,0 +1,95 @@
+.title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom : 17px;
+    margin-left: 29px;
+    margin-top: 20px;
+}
+
+.profile {
+    display: flex;
+    margin-left: 46px;
+}
+
+.profile img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.text {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.judul-ta {
+    margin-top: 27px;
+    margin-left: 56px;
+    margin-bottom: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.judul-ta p:nth-child(1) {
+    font-size: 22px;
+    font-weight: bold;
+    /* margin-right: 357px; */
+}
+
+.judul-ta p:nth:child(2) {
+    max-width: 300px;
+}
+
+.penilaian {
+    margin-left: 54px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.input-wrapper {
+    margin-left: 52px;
+    margin-top: 36px;
+    display: flex;
+    column-gap: 58px;
+}
+
+
+.special-class {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.special-class input {
+    max-width: 251px;
+    height: 37px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.special-class input {
+    color: black;
+}
+
+.special-class input.total:hover {
+    cursor: not-allowed;
+}
+
+.special-class input:focus {
+    border: 1px solid black;
+    outline: none;
+}
+
+.special-class label {
+    font-size: 22px;
+    font-weight: 300;
+}

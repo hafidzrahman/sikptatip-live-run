@@ -1,0 +1,42 @@
+.menu-wrapper {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.menu-wrapper img {
+    margin-right: 10px;
+}
+
+a.menu-wrapper:hover, button.menu-wrapper:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+button.menu-wrapper {
+    background-color: #ECECEC;
+}
+
+a.menu-wrapper, button.menu-wrapper {
+    text-decoration: none;
+    color: #555555;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    border: none;
+}
+
+.active {
+    background-color: white;
+}
+
+button.menu-wrapper.active {
+    background-color: white;
+}
+
